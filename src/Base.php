@@ -208,7 +208,7 @@ class Base
         curl_setopt($curl, CURLOPT_USERPWD, $this->auth_user . ':' . $this->auth_password);
         $output = curl_exec($curl);
         curl_close($curl);
-        var_dump($output);
+
         return json_decode($output, true);
     }
 
