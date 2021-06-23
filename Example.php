@@ -64,10 +64,8 @@ class Example
         /** 测试 */
         $app_id = 'xxxxxxxxxxxxxx';
         $app_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-        $tpl_id = 7;
 
         $notify_obj = new Notify\AppPush($app_id, $app_secret);
-        $notify_obj->setTemplateId($tpl_id);
         $notify_obj->setAuthUser('xxxxxxxxxxxxxx');
         $notify_obj->setAuthPassword('xxxxxxxxxxxxxx');
 
