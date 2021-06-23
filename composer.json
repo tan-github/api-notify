@@ -1,6 +1,6 @@
 {
-    "name": "tan-github/sms",
-    "description": "短信",
+    "name": "tan-github/api-notify",
+    "description": "接口通知类型消息",
     "type": "library",
     "license": "MIT",
     "authors": [
